@@ -288,7 +288,7 @@ Here's some externel information
         await userProxy.SendAsync(groupChatManager, "Develop a program that implements the QuickSort algorithm and save it in result.txt", maxRound: 30);
         File.Exists(result).Should().BeTrue();
 
-      
+
     }
 
     public static OpenAIConfig getConfig()
